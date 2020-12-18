@@ -1,0 +1,27 @@
+{
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      // 格式化css
+      "source.fixAll.stylelint": true
+    },
+    "eslint.codeAction.showDocumentation": {
+      "enable": true
+    },
+    "eslint.codeAction.disableRuleComment": {
+      "enable": true
+    },
+    // 指定哪些文件不参与搜索
+    "search.exclude": {
+      "**/node_modules": true,
+      "dist": true,
+      "yarn.lock": true,
+      "package-lock": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}
